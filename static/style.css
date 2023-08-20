@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Monoton&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo img{
+border-radius: 5px;
+height: 30px;
+margin-right: 25px;
+}
+
+#navbar,a{
+    background-color: rgb(182 113 113);
+    color: white;
+   padding: 10px;
+   
+ font-family: 'Monoton', cursive;
+
+    
+}
+
+li,a{
+   list-style: none;
+   text-decoration: none;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 11px;
+
+}
+#navbar li a:hover{
+    color: rgb(0,0,0);
+}
+#introSection{
+    display: flex;
+    flex-direction: column;
+   color:white;
+  font-size: 2rem;
+  
+  justify-content: center;
+  align-items: center;
+  
+    background: no-repeat center/cover url("/static/d.jpg");
+    height: 250px;
+    background-color: bisque;
+    padding-bottom: 30px;
+}
+#introSection div.small{
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+#ourMission{
+    height: 270px;
+    background-color: #d4a1d9;
+   
+    
+}
+#ourMission h2{
+    padding-top: 5px;
+ text-align: center;
+ font-size: 34px;
+   
+}
+#ourMission #card{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+}
+ .card{
+    color: #1001ff;
+    border: 2px solid rgb(97, 2, 2);
+    border-radius: 10px;
+    text-align: center;
+    height: 185px;
+    margin: 5px;
+    width: 32%;
+    background-color: #faf2f2;
+}
+.card h3{
+    margin-top: 5px;
+}
+.cardBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cardContent{
+    margin-right: 50px;
+    font-size: 18px;
+    color: #6c1313;
+    margin-left: 10px;
+}
+.cardimg img{
+    
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+#sponsorSection{
+    height: 250px;
+    background-color: rgba(240, 185, 185, 0.77);
+
+}
+#sponsorSection h2 {
+    padding-top: 25px;
+    text-align: center;
+    
+   font-size: 34px;
+}
+.sponsor{
+    margin-top: 20px;
+    margin-left: 250px;
+   
+
+}
+.sponsor img{
+    margin-top: 10px;
+    height: 80px;
+   margin-left: 25px;
+ 
+}
+#footer {
+    height: 50px;
+    background-color: black;
+    color: #ee04b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,60 @@
+//- index.pug
+doctype html
+html    
+  head 
+    title ABCD dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar   
+      ul 
+        div#logo
+          img(src="/static/logo.png" alt="")
+        li #[a(href='/') Home]
+        li #[a(href='/') About ]
+        li #[a(href='/') Services ]
+        li #[a(href='/') Contact Us]
+    section#introSection
+      div Welcome to ABCD dance academy! 
+      div.small Let's shake your body...
+section#ourMission 
+  h2 Our Mission 
+  div#card 
+    div.card
+      h3  Any body can dance 
+      div.cardBox
+        div.cardimg
+          img(src="/static/card1.png" alt="")
+        div.cardContent
+          p If your intrest is in dance then give atleast a chance to yourself you will definitely dance well in future  
+    div.card
+      h3 Making competative enviroment
+      div.cardBox
+        div.cardimg
+          img(src="/static/card3.png" alt="")
+        div.cardContent
+          p For your better growth we regulary organises dance contest compition and winner gets some exciting gifts.
+    div.card
+      h3 Finacial support to required 
+
+      div.cardBox
+        div.cardimg
+          img(src="/static/card2.png" alt="")
+        div.cardContent
+          p We also arrange funds for dancer have finicial problems 
+
+
+
+section#sponsorSection
+  h2 Our Sponsors
+  div.sponsor
+    img(src='/static/amazon.png' alt='')
+    img(src='/static/zomato.png' alt='')
+    img(src='/static/google.png' alt='')
+    img(src='/static/apple.png' alt='')
+    img(src='/static/flipkart.png' alt='')
+
+section#footer 
+  |Copyright © 2020 ABCDdanceAcademy.com | All rights reserved  
+  script
+    include ../static/index.js
